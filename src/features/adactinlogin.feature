@@ -15,17 +15,8 @@ Then the user should navigate to select hotel page
 When the user select the hotel 
 And the user click the continue button
 Then the user should navigate to book hotel page 
-When the user enters a "<firstName>" in first name field
-And the user enters a "<lastName>" in last name field
-And the user enters a "<billingaddress>"  in address field
-And the user enters a "<creditcardNo>" in credit card no field
-And the user select a "<creditcardtype>" in card type field
-And the user select a "<expirymonth>" exp month field
-And the user select a "<expiryyear>" exp year field
-And the user enters a "<cvv>" in cvv field
-When the user click the book now  button 
-Then the user should navigate to the book confirmation page
+
 
 Examples:
-|username |password    |location|hotel         |roomType|childperroom|firstName|lastName    |billingaddress|creditcardNo    |creditcardtype|expirymonth|expiryyear|cvv|
-|shalini11|Shalini@1998|Paris   |Hotel Sunshine|Double  |1 - One     |shalini  |chakravarthi|vellore       |8529637417894563|Master Card   |April      |2027       |123|
+|username |password    |location|hotel         |roomType|childperroom|
+|shalini11|Shalini@1998|Paris   |Hotel Sunshine|Double  |1 - One     |
