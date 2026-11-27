@@ -1,1 +1,11 @@
-This is the initial Commit
+The Core Structure of this Cucumber Framework is
+
+Src
+    pages --> All the page elements and page methods will be stored here
+        pagefile.js
+    features --> All the business scenarios will be described using gherkin language will be stored here
+        featurefile.feature
+    stepdefinitions --> All the step definitions for the page will be stored here
+        stepfile.step.js
+    support ---> Before the Execution and After the Execution will be configured here
+        hooks.js
